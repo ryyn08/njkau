@@ -7,17 +7,25 @@
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "baileys-md",
+    "bot-md",
+    "multi-device"
+  ],
   "author": "ryyn tamvan",
-  "license": "MIT",
+  "license": "HS",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "npm:jagproject",
     "axios": "^1.6.0",
     "chalk": "^4.1.2",
     "fs-extra": "^10.0.0",
-    "pino": "^8.14.1",
+    "pino": "^7.0.5",
     "qrcode-terminal": "^0.12.0",
+    "util": "^0.12.4",
     "wa-sticker-formatter": "^4.4.4",
     "fluent-ffmpeg": "^2.1.2"
   }
