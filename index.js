@@ -85,7 +85,7 @@ async function Starts() {
 
             // --- COMMAND HANDLER ---
             switch (command) {
-                case 'menu': {
+                case 'exz': {
                     let menuText = `*RYYN BOTZ MD*\n\n` +
                         `*User:* ${pushname}\n` +
                         `*Prefix:* [ ${prefix} ]\n\n` +
@@ -144,7 +144,7 @@ async function Starts() {
                 }
                 break;
 
-                case 'sbrat': {
+                case 'brat': {
                     if (!text) return Cantarella.sendMessage(from, { text: 'Teksnya mana?' }, { quoted: m });
                     const axios = require('axios');
                     const bratUrl = `https://brat.siputzx.my.id/image?text=${encodeURIComponent(text)}&background=%23ffffff&color=%23000000&emojiStyle=apple`;
