@@ -20,7 +20,7 @@ const FileType = require('file-type');
 const path = require('path');
 const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
 
-const phoneNumber = "6283119396819";
+const phoneNumber = "6285883881264";
 const usePairingCode = true;
 
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) });
