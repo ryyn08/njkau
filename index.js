@@ -20,7 +20,7 @@ const FileType = require('file-type');
 const path = require('path');
 const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
 
-const phoneNumber = "6285883881264";
+const phoneNumber = "6283119396819";
 const usePairingCode = true;
 
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) });
@@ -151,7 +151,7 @@ async function Starts() {
                     
                     const sticker = new Sticker(bratUrl, {
                         pack: 'Ryyn Botz',
-                        author: 'ryyn tamvan',
+                        author: 'soft spoken',
                         type: StickerTypes.FULL,
                         categories: ['🤩', '🎉'],
                         quality: 70
